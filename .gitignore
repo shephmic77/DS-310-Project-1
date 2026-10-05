@@ -1,0 +1,12 @@
+.local-backup/
+Final_Submission/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+reproduced/
+analysis/reproduced/
+*.log
