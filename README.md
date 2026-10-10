@@ -1,6 +1,12 @@
 # DS310 Regression Project
 
-A regression project completed for DS 310 at Penn State in Fall 2026.
+Regression modeling for a Penn State Kaggle competition using feature engineering, weighted ridge regression, and model ensembles.
+
+**Final result:** Team 9 placed **1st** with a private leaderboard MSE of **2058.85426**.
+
+[Competition and leaderboard](https://www.kaggle.com/competitions/ds-310-fall-2026-project-1) · [Notebook](analysis/regression_analysis.ipynb) · [Report](report/regression_report.pdf)
+
+Completed for DS 310 at Penn State in Fall 2026.
 
 The goal was to predict the target values for a Kaggle competition. I started with ridge regression, compared other models, and made smaller changes to features, training weights, and model blends.
 
@@ -8,13 +14,14 @@ The goal was to predict the target values for a Kaggle competition. I started wi
 
 | Result | Value |
 | --- | ---: |
-| Public Kaggle MSE | **2930.80** |
-| Public rank in the saved screenshot | **1** |
+| Final private Kaggle MSE | **2058.85426** |
+| Final leaderboard rank (Team 9) | **1** |
+| Public Kaggle MSE | **2930.80324** |
 | Training rows | 242 |
 | Test rows | 200 |
 | Supplied predictor columns | 64 |
 
-The exact public score was **2930.80324**. The screenshot was taken on October 4, 2026. It shows the public rank at that time, not a confirmed private rank.
+The final private score and rank were supplied from the competition leaderboard by Michael Shepherd. The report screenshot was taken on October 4, 2026 and records the public leaderboard at that time. Public and private MSE use different evaluation samples and are not directly comparable.
 
 ## Approach
 
